@@ -1,0 +1,21 @@
+/*
+Primary:#81d3f9
+Primary-Light:#b5ffff
+Primary-Dark:#4ba2c6
+*/
+
+html {
+  background-color: #ddd;
+}
+
+body {
+  margin: 0 auto;
+
+  max-width: 1024px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #444;
+
+  background-color: white;
+}
