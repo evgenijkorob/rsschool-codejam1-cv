@@ -5,7 +5,7 @@ Primary-Dark:#4ba2c6
 */
 
 html {
-  background-color: #ddd;
+  background-color: #dddddd;
 }
 
 body {
@@ -15,9 +15,7 @@ body {
 
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  color: #444;
-
-  background-color: white;
+  color: #444444;
 }
 
 header {
@@ -25,7 +23,7 @@ header {
   z-index: 900;
   top: 0;
 
-  width: 100%;
+  width: 1024px;
   
   background-color: #81d3f9;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
@@ -40,7 +38,6 @@ header {
 
 nav {
   width: 100%;
-  padding-left: 20px;
 
   background-color: #4ba2c6;
 }
@@ -72,4 +69,26 @@ nav a {
 
 .nav-link:hover {
   border-color: #b5ffff;
+}
+
+main {
+  margin: 0 auto;
+  padding: 15px;
+  padding-top: 130px;
+  width: 90%;
+  max-width: 800px;
+
+  border-radius: 20px;
+  background-color: white;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+
+  font-size: 16px;
+  color: white;
+
+  background-color: #4ba2c6;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
